@@ -19,7 +19,7 @@ export default function Navbar() {
 );
   return (
    <>
-   <div>
+   <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
    <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -43,9 +43,10 @@ export default function Navbar() {
         {navItems}
       </ul>
     </div>
-    <div className="navbar-end">
+   
     <a className="text-2xl font-bold cursor-pointer">BookStore</a>
   </div>
+  <div className="navbar-end">
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">{navItems}</ul>
   </div>
