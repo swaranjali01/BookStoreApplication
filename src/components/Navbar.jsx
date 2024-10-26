@@ -66,7 +66,7 @@ export default function Navbar() {
 </label>
   </div>
   <div className="">
-    <a className="btn">Login</a>
+    <a className="bg-black text-white px-2 py-2 rounded-md hover:bg-slate-800 duration-30 cursor-pointer">Login</a>
   </div>
 </div>
 </div>
