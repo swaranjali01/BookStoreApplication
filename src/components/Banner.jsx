@@ -10,7 +10,7 @@ function Banner() {
         Hello, welcome here to learn something{" "}
         <span className='text-pink-500'>new everyday!!!</span>
       </h1>
-      <p>
+      <p className='text-xl font-semibold'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Quas ipsam in obcaecati ipsum illum consequuntur quaerat 
         dolore porro eveniet sed harum, ut sunt, hic nulla 
