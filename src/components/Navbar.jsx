@@ -10,7 +10,7 @@ export default function Navbar() {
       }
      }
      window.addEventListener('scroll',handleScroll)
-     return()=>{
+     return ()=>{
       window.removeEventListener('scroll',handleScroll)
      }
   },[])
