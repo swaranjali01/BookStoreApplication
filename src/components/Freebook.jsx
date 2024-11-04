@@ -70,7 +70,13 @@ function Freebook() {
           </p>
         </div>
 
-       
+        <div>
+          <Slider {...settings}>
+            {book.map((item) => (
+              <Cards item={item} key={item.id} />
+            ))}
+          </Slider>
+        </div>
       </div>
     </>
   );
