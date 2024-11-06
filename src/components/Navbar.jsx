@@ -42,7 +42,11 @@ export default function Navbar() {
    <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+      <div 
+      tabIndex={0} 
+      role="button" 
+      className="btn btn-ghost lg:hidden"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
@@ -71,7 +75,11 @@ export default function Navbar() {
   </div>
   <div className='hidden md:block'>
   <label className="px-3 py-2 border rounded-md flex items-center gap-2">
-  <input type="text" className="grow" placeholder="Search" />
+  <input
+      type="text"
+      className="grow outline-none rounded-md px-1 dark:bg-slate-900 dark:text-white"
+      placeholder="Search"
+    />
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -90,7 +98,7 @@ export default function Navbar() {
 
   {/* sun icon */}
   <svg
-    className="swap-off h-7 w-7 fill-current"
+   className="swap-off fill-current w-7 h-7"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24">
     <path
